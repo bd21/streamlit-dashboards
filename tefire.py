@@ -35,7 +35,7 @@ luna_price = st.sidebar.slider(
     "Price of Luna",
     min_value=10,
     max_value=1000,
-    value=100,
+    value=40,
     step=10,
     format="$%.2f",
     help="What do you think the future price of Luna will be?",
@@ -45,7 +45,7 @@ luna_price = st.sidebar.slider(
 luna_staked = st.sidebar.slider(
     "Staked Luna",
     min_value=100,
-    max_value=50_000,
+    max_value=500_000,
     value=10_000,
     step=100,
     help="How much Luna do you plan to stake?",
@@ -67,7 +67,7 @@ pluna_yluna_ratio = st.sidebar.slider(
     "pLuna to yLuna Ratio",
     min_value=0.0,
     max_value=1.0,
-    value=0.90,
+    value=0..85,
     step=0.01,
     help="What do you pLuna will be worth relative to yLuna?",
 )
